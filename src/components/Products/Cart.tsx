@@ -60,7 +60,7 @@ export default function Cart() {
                             >
                                 <figure>
                                     <img
-                                        src={item.thumbnail || "https://via.placeholder.com/100"}
+                                        src={item.thumbnail || item.image || item.images?.[0] || "https://via.placeholder.com/100"}
                                         alt={`Product image of ${item.title}`}
                                         className="w-20 h-20 object-cover rounded-xl"
                                         loading="lazy"

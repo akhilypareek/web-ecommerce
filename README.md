@@ -83,32 +83,6 @@ npm run preview
 
 This project is a modern e-commerce frontend app that provides product listing, category/price filtering, product detail views, and a shopping cart flow
 
-## Key Features
-
-- Product listing from the live API
-- Category filter and price range filter
-- Filter state persistence via URL query parameters
-- Product detail page with add/remove quantity controls
-- Cart management using global context
-- Cart data persisted in localStorage
-- Responsive layout (desktop + mobile sidebar)
-
-## Tech Stack
-
-- React 19
-- TypeScript
-- Vite
-- React Router DOM
-- Tailwind CSS 4
-- Lucide React Icons
-
-## API
-
-For products and categories, these endpoints are being used :
-
-- `https://api.escuelajs.co/api/v1/products`
-- `https://api.escuelajs.co/api/v1/categories`
-
 ## Routes
 
 - `/` -> All products page

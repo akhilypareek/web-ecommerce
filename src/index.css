@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  /* Base Surfaces */
+  --color-white-soft: #fdfefe;
+  --color-card-surface: #eff6ff;
+  --color-page-bg: #eef2ff;
+  --color-gray-very-light: #eef1f6;
+  --color-blue-very-light: #f3f6fb;
+
+  /* Yellow (Rating) */
+  --color-yellow-soft-bg: #fff7ed;
+  --color-yellow-soft-text: #f59e0b;
+  --color-yellow-soft-fill: #fbbf24;
+
+  /* Green (Price) */
+  --color-green-mint: #34d399;
+
+  /* Red (Discount) */
+  --color-red-soft-bg: #fee2e2;
+  --color-red-soft-text: #ef4444;
+
+  /* Blue (Button) */
+  --color-blue-soft-bg: #e0f2fe;
+  --color-blue-soft-text: #0284c7;
+  --color-blue-soft-hover: #bae6fd;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* thumb */
+::-webkit-scrollbar-thumb {
+  background: #bae6fd; /* gray */
+  border-radius: 10px;
+}
+
+/* hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}

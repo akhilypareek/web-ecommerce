@@ -83,58 +83,6 @@ npm run preview
 
 This project is a modern e-commerce frontend app that provides product listing, category/price filtering, product detail views, and a shopping cart flow
 
-## Routes
-
-- `/` -> All products page
-- `/products/:id` -> Single product details
-- `/cart` -> Cart page
-
-## Project Structure
-
-```text
-src/
-  components/
-    Controls/
-    Layout/
-    Products/
-  constants/
-    ApiRoutes.ts
-  context/
-    CartContext.tsx
-  App.tsx
-  main.tsx
-```
-
-## Getting Started
-
-### 1) Install dependencies
-
-```bash
-npm install
-```
-
-### 2) Run development server
-
-```bash
-npm run dev
-```
-
-### 3) Build for production
-
-```bash
-npm run build
-```
-
-### 4) Preview production build
-
-```bash
-npm run preview
-```
-
-## Notes
-
-- Cart state browser `localStorage` me save hoti hai.
-- Filters URL me reflect hote hain, isliye page refresh ke baad bhi selected filter state maintain rehti hai.
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
